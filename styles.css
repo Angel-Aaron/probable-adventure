@@ -1,0 +1,136 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{font-size: 66px; font-weight: 600; line-height: 80px;}
+
+h2{font-size: 50px; margin-bottom: 30px;}
+
+p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    padding: 120px 0;
+}
+.btn-ligh-grey{background-color: azure;}
+
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+.btn{
+    font-size: 15px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+
+.btn-ligh{
+    background-color:#ffffff;
+    color: black;
+    border:2px solid #ffffff ;
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow:0 2px 4px 0 rgba(0,0,0, .05);
+    min-height: 100px;
+}
+.nav-link{  color: #000000;}
+.nav-link:hover{color: #000000;}
+
+.logo-zoo{
+    min-width: 120px;
+    max-width: 120px;
+}
+.navbar-toggler{
+font-size: 40px;}
+.navbar-toggler:focus{outline: none;}
+
+
+#hero {
+    background-image: url('imagenes/Cbta 35.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.hero p{
+    color:#ffffff;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    
+}
+.animales-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+.animales-container img{
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.animales-container:hover img{
+    -moz-transform: scale(1.2);
+    transform: scale(1.7);
+}
+
+.animales-detalles{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.animales-detalles h2{
+    margin-bottom: 0px;
+}
+
+.animales-detalles a h2, .animales-detalles a p{
+    color: #ffffff;
+}
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+.memeber-details{
+    position: absolute;
+    color: #E82727;
+    bottom: 0px;
+    left: 20px;
+}
+
+
+@media (max-width: 575.98px) { h1{font-size: 40px; line-height: normal;} }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
